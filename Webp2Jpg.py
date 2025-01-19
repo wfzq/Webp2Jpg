@@ -23,7 +23,7 @@ def convert_to_jpg(file_path):
 
 if __name__ == "__main__":
     """ Absolute URL to folder goes here"""
-    picturesFolder = "C:\\Users\\MUTRA\\Pictures"
+    picturesFolder = "C:\\Users\\USER\\Pictures"
 
     if os.path.exists(picturesFolder):
         for root, _, files in os.walk(picturesFolder):
